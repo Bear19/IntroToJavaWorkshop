@@ -5,10 +5,10 @@ import org.jointheleague.graphical.robot.Robot;
 public class TriangleShell {
 
 	// 1. Create a new Robot
-
+Robot Ben =new Robot();
 	
 	void go() {
-		drawTriangle(100); // 3. delete this line (used only for testing)
+		drawTriangle(10); // 3. delete this line (used only for testing)
 
 		// 6. Make the robot go as fast as possible
 
@@ -27,11 +27,22 @@ public class TriangleShell {
 	}
 
 	/* 2. fill in the method below to draw a triangle. Use the length variable for the size of the triangle. */
-	private void drawTriangle(int length) {
+	private void drawTriangle(int length){
+		for (int i = 0; i < 3; i++) {
+			Ben.penDown();
+			Ben.move(length);
+		Ben.turn(120);
 		
+			
+		}
 		
 		
 	}
+	
+		
+		
+		
+	
 
 	
 	public static void main(String[] args) {

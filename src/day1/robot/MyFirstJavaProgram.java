@@ -7,8 +7,13 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
-		new Robot();
-		
+	 Robot damon = new Robot();
+damon.penDown();
+	 for (int i = 0; i < 4; i++) {
+		 damon.move(200);
+		damon.turn(90);
+	}
+	 
 		
 	}
 }
